@@ -1,166 +1,46 @@
-period,region,energySource,co2-thousand-metric-tons,nox-short-tons,so2-short-tons,co2-thousand-metric-tons-units,nox-short-tons-units,so2-short-tons-units
-2012-01-01,Midwest Region,fossil fuels,634744.0,644925.0,1677127.0,thousand metric tons,short tons,short tons
-2012-01-01,Midwest Region,others,1703.0,61853.0,23587.0,thousand metric tons,short tons,short tons
-2012-01-01,Midwest Region,renewables,636449.0,706778.0,1700714.0,thousand metric tons,short tons,short tons
-2012-01-01,Northeast Region,fossil fuels,214554.0,209167.0,360508.0,thousand metric tons,short tons,short tons
-2012-01-01,Northeast Region,others,7740.0,67017.0,25847.0,thousand metric tons,short tons,short tons
-2012-01-01,Northeast Region,renewables,222295.0,276184.0,386355.0,thousand metric tons,short tons,short tons
-2012-01-01,Southeast Region,fossil fuels,671778.0,546971.0,1113798.0,thousand metric tons,short tons,short tons
-2012-01-01,Southeast Region,others,4313.0,94040.0,174388.0,thousand metric tons,short tons,short tons
-2012-01-01,Southeast Region,renewables,676091.0,641011.0,1288186.0,thousand metric tons,short tons,short tons
-2012-01-01,Southwest Region,fossil fuels,384227.0,374374.0,491318.0,thousand metric tons,short tons,short tons
-2012-01-01,Southwest Region,others,159.0,20458.0,14239.0,thousand metric tons,short tons,short tons
-2012-01-01,Southwest Region,renewables,384388.0,394832.0,505557.0,thousand metric tons,short tons,short tons
-2012-01-01,West Region,fossil fuels,236493.0,304064.0,173693.0,thousand metric tons,short tons,short tons
-2012-01-01,West Region,others,1156.0,44562.0,28384.0,thousand metric tons,short tons,short tons
-2012-01-01,West Region,renewables,237652.0,348626.0,202077.0,thousand metric tons,short tons,short tons
-2013-01-01,Midwest Region,fossil fuels,654977.0,634249.0,1616598.0,thousand metric tons,short tons,short tons
-2013-01-01,Midwest Region,others,1574.0,63216.0,22438.0,thousand metric tons,short tons,short tons
-2013-01-01,Midwest Region,renewables,656552.0,697463.0,1639036.0,thousand metric tons,short tons,short tons
-2013-01-01,Northeast Region,fossil fuels,207570.0,207483.0,361956.0,thousand metric tons,short tons,short tons
-2013-01-01,Northeast Region,others,7560.0,68633.0,27043.0,thousand metric tons,short tons,short tons
-2013-01-01,Northeast Region,renewables,215131.0,276109.0,388999.0,thousand metric tons,short tons,short tons
-2013-01-01,Southeast Region,fossil fuels,659419.0,546834.0,1061745.0,thousand metric tons,short tons,short tons
-2013-01-01,Southeast Region,others,4178.0,97516.0,181374.0,thousand metric tons,short tons,short tons
-2013-01-01,Southeast Region,renewables,663597.0,644348.0,1243119.0,thousand metric tons,short tons,short tons
-2013-01-01,Southwest Region,fossil fuels,387480.0,375980.0,491363.0,thousand metric tons,short tons,short tons
-2013-01-01,Southwest Region,others,127.0,21008.0,14222.0,thousand metric tons,short tons,short tons
-2013-01-01,Southwest Region,renewables,387610.0,396988.0,505585.0,thousand metric tons,short tons,short tons
-2013-01-01,West Region,fossil fuels,249660.0,318558.0,182909.0,thousand metric tons,short tons,short tons
-2013-01-01,West Region,others,1259.0,51330.0,18340.0,thousand metric tons,short tons,short tons
-2013-01-01,West Region,renewables,250918.0,369886.0,201249.0,thousand metric tons,short tons,short tons
-2014-01-01,Midwest Region,fossil fuels,645737.0,615711.0,1499469.0,thousand metric tons,short tons,short tons
-2014-01-01,Midwest Region,others,1575.0,64662.0,22029.0,thousand metric tons,short tons,short tons
-2014-01-01,Midwest Region,renewables,647313.0,680373.0,1521498.0,thousand metric tons,short tons,short tons
-2014-01-01,Northeast Region,fossil fuels,202751.0,197835.0,374609.0,thousand metric tons,short tons,short tons
-2014-01-01,Northeast Region,others,7543.0,63250.0,23344.0,thousand metric tons,short tons,short tons
-2014-01-01,Northeast Region,renewables,210293.0,261085.0,397953.0,thousand metric tons,short tons,short tons
-2014-01-01,Southeast Region,fossil fuels,683783.0,567144.0,1061626.0,thousand metric tons,short tons,short tons
-2014-01-01,Southeast Region,others,4177.0,101111.0,185630.0,thousand metric tons,short tons,short tons
-2014-01-01,Southeast Region,renewables,687961.0,668255.0,1247256.0,thousand metric tons,short tons,short tons
-2014-01-01,Southwest Region,fossil fuels,376813.0,330233.0,448160.0,thousand metric tons,short tons,short tons
-2014-01-01,Southwest Region,others,134.0,19851.0,14252.0,thousand metric tons,short tons,short tons
-2014-01-01,Southwest Region,renewables,376947.0,350084.0,462412.0,thousand metric tons,short tons,short tons
-2014-01-01,West Region,fossil fuels,244511.0,291590.0,159665.0,thousand metric tons,short tons,short tons
-2014-01-01,West Region,others,1262.0,63866.0,18652.0,thousand metric tons,short tons,short tons
-2014-01-01,West Region,renewables,245774.0,355456.0,178317.0,thousand metric tons,short tons,short tons
-2015-01-01,Midwest Region,fossil fuels,586883.0,485518.0,1085457.0,thousand metric tons,short tons,short tons
-2015-01-01,Midwest Region,others,1673.0,65236.0,21454.0,thousand metric tons,short tons,short tons
-2015-01-01,Midwest Region,renewables,588555.0,550754.0,1106911.0,thousand metric tons,short tons,short tons
-2015-01-01,Northeast Region,fossil fuels,190221.0,159726.0,280317.0,thousand metric tons,short tons,short tons
-2015-01-01,Northeast Region,others,7312.0,59133.0,24637.0,thousand metric tons,short tons,short tons
-2015-01-01,Northeast Region,renewables,197537.0,218859.0,304954.0,thousand metric tons,short tons,short tons
-2015-01-01,Southeast Region,fossil fuels,640429.0,488126.0,682505.0,thousand metric tons,short tons,short tons
-2015-01-01,Southeast Region,others,4452.0,98364.0,185701.0,thousand metric tons,short tons,short tons
-2015-01-01,Southeast Region,renewables,644881.0,586490.0,868206.0,thousand metric tons,short tons,short tons
-2015-01-01,Southwest Region,fossil fuels,359912.0,297240.0,355607.0,thousand metric tons,short tons,short tons
-2015-01-01,Southwest Region,others,150.0,19154.0,13355.0,thousand metric tons,short tons,short tons
-2015-01-01,Southwest Region,renewables,360063.0,316394.0,368962.0,thousand metric tons,short tons,short tons
-2015-01-01,West Region,fossil fuels,239191.0,278732.0,140342.0,thousand metric tons,short tons,short tons
-2015-01-01,West Region,others,1224.0,59456.0,19087.0,thousand metric tons,short tons,short tons
-2015-01-01,West Region,renewables,240417.0,338188.0,159429.0,thousand metric tons,short tons,short tons
-2016-01-01,Midwest Region,fossil fuels,541080.0,433943.0,726498.0,thousand metric tons,short tons,short tons
-2016-01-01,Midwest Region,others,1665.0,62114.0,21299.0,thousand metric tons,short tons,short tons
-2016-01-01,Midwest Region,renewables,542746.0,496057.0,747797.0,thousand metric tons,short tons,short tons
-2016-01-01,Northeast Region,fossil fuels,182166.0,132550.0,150746.0,thousand metric tons,short tons,short tons
-2016-01-01,Northeast Region,others,7336.0,57494.0,23230.0,thousand metric tons,short tons,short tons
-2016-01-01,Northeast Region,renewables,189499.0,190044.0,173976.0,thousand metric tons,short tons,short tons
-2016-01-01,Southeast Region,fossil fuels,632811.0,435157.0,415369.0,thousand metric tons,short tons,short tons
-2016-01-01,Southeast Region,others,4560.0,93076.0,184535.0,thousand metric tons,short tons,short tons
-2016-01-01,Southeast Region,renewables,637372.0,528233.0,599904.0,thousand metric tons,short tons,short tons
-2016-01-01,Southwest Region,fossil fuels,341107.0,274474.0,319213.0,thousand metric tons,short tons,short tons
-2016-01-01,Southwest Region,others,180.0,17373.0,13912.0,thousand metric tons,short tons,short tons
-2016-01-01,Southwest Region,renewables,341287.0,291847.0,333125.0,thousand metric tons,short tons,short tons
-2016-01-01,West Region,fossil fuels,216236.0,239889.0,116846.0,thousand metric tons,short tons,short tons
-2016-01-01,West Region,others,1265.0,50929.0,19896.0,thousand metric tons,short tons,short tons
-2016-01-01,West Region,renewables,217500.0,290818.0,136742.0,thousand metric tons,short tons,short tons
-2017-01-01,Midwest Region,fossil fuels,537005.0,399930.0,624086.0,thousand metric tons,short tons,short tons
-2017-01-01,Midwest Region,others,1543.0,61219.0,21803.0,thousand metric tons,short tons,short tons
-2017-01-01,Midwest Region,renewables,538546.0,461149.0,645889.0,thousand metric tons,short tons,short tons
-2017-01-01,Northeast Region,fossil fuels,159947.0,82116.0,102890.0,thousand metric tons,short tons,short tons
-2017-01-01,Northeast Region,others,7396.0,56284.0,21279.0,thousand metric tons,short tons,short tons
-2017-01-01,Northeast Region,renewables,167346.0,138400.0,124169.0,thousand metric tons,short tons,short tons
-2017-01-01,Southeast Region,fossil fuels,588220.0,385576.0,331185.0,thousand metric tons,short tons,short tons
-2017-01-01,Southeast Region,others,3948.0,94431.0,181474.0,thousand metric tons,short tons,short tons
-2017-01-01,Southeast Region,renewables,592169.0,480007.0,512659.0,thousand metric tons,short tons,short tons
-2017-01-01,Southwest Region,fossil fuels,338854.0,270673.0,343119.0,thousand metric tons,short tons,short tons
-2017-01-01,Southwest Region,others,207.0,15077.0,10685.0,thousand metric tons,short tons,short tons
-2017-01-01,Southwest Region,renewables,339060.0,285750.0,353804.0,thousand metric tons,short tons,short tons
-2017-01-01,West Region,fossil fuels,211427.0,231591.0,107041.0,thousand metric tons,short tons,short tons
-2017-01-01,West Region,others,1202.0,49342.0,19384.0,thousand metric tons,short tons,short tons
-2017-01-01,West Region,renewables,212628.0,280933.0,126425.0,thousand metric tons,short tons,short tons
-2018-01-01,Midwest Region,fossil fuels,556695.0,410499.0,634722.0,thousand metric tons,short tons,short tons
-2018-01-01,Midwest Region,others,1540.0,60140.0,21251.0,thousand metric tons,short tons,short tons
-2018-01-01,Midwest Region,renewables,558237.0,470639.0,655973.0,thousand metric tons,short tons,short tons
-2018-01-01,Northeast Region,fossil fuels,165074.0,83296.0,101164.0,thousand metric tons,short tons,short tons
-2018-01-01,Northeast Region,others,7200.0,54855.0,22447.0,thousand metric tons,short tons,short tons
-2018-01-01,Northeast Region,renewables,172272.0,138151.0,123611.0,thousand metric tons,short tons,short tons
-2018-01-01,Southeast Region,fossil fuels,594837.0,371122.0,320159.0,thousand metric tons,short tons,short tons
-2018-01-01,Southeast Region,others,4388.0,98713.0,181886.0,thousand metric tons,short tons,short tons
-2018-01-01,Southeast Region,renewables,599221.0,469835.0,502045.0,thousand metric tons,short tons,short tons
-2018-01-01,Southwest Region,fossil fuels,330055.0,259426.0,264942.0,thousand metric tons,short tons,short tons
-2018-01-01,Southwest Region,others,192.0,15072.0,14703.0,thousand metric tons,short tons,short tons
-2018-01-01,Southwest Region,renewables,330247.0,274498.0,279645.0,thousand metric tons,short tons,short tons
-2018-01-01,West Region,fossil fuels,211171.0,219762.0,91490.0,thousand metric tons,short tons,short tons
-2018-01-01,West Region,others,1180.0,51465.0,19711.0,thousand metric tons,short tons,short tons
-2018-01-01,West Region,renewables,212353.0,271227.0,111201.0,thousand metric tons,short tons,short tons
-2019-01-01,Midwest Region,fossil fuels,488461.0,352304.0,543394.0,thousand metric tons,short tons,short tons
-2019-01-01,Midwest Region,others,1107.0,57340.0,20839.0,thousand metric tons,short tons,short tons
-2019-01-01,Midwest Region,renewables,489570.0,409644.0,564233.0,thousand metric tons,short tons,short tons
-2019-01-01,Northeast Region,fossil fuels,154611.0,72435.0,67440.0,thousand metric tons,short tons,short tons
-2019-01-01,Northeast Region,others,7104.0,53447.0,22126.0,thousand metric tons,short tons,short tons
-2019-01-01,Northeast Region,renewables,161716.0,125882.0,89566.0,thousand metric tons,short tons,short tons
-2019-01-01,Southeast Region,fossil fuels,547615.0,328571.0,251409.0,thousand metric tons,short tons,short tons
-2019-01-01,Southeast Region,others,4295.0,89362.0,183315.0,thousand metric tons,short tons,short tons
-2019-01-01,Southeast Region,renewables,551912.0,417933.0,434724.0,thousand metric tons,short tons,short tons
-2019-01-01,Southwest Region,fossil fuels,310204.0,239208.0,175550.0,thousand metric tons,short tons,short tons
-2019-01-01,Southwest Region,others,148.0,14492.0,7869.0,thousand metric tons,short tons,short tons
-2019-01-01,Southwest Region,renewables,310351.0,253700.0,183419.0,thousand metric tons,short tons,short tons
-2019-01-01,West Region,fossil fuels,210155.0,222372.0,97106.0,thousand metric tons,short tons,short tons
-2019-01-01,West Region,others,1171.0,49285.0,27238.0,thousand metric tons,short tons,short tons
-2019-01-01,West Region,renewables,211327.0,271657.0,124344.0,thousand metric tons,short tons,short tons
-2020-01-01,Midwest Region,fossil fuels,432265.0,335305.0,440050.0,thousand metric tons,short tons,short tons
-2020-01-01,Midwest Region,others,974.0,55702.0,18969.0,thousand metric tons,short tons,short tons
-2020-01-01,Midwest Region,renewables,433240.0,391007.0,459019.0,thousand metric tons,short tons,short tons
-2020-01-01,Northeast Region,fossil fuels,144949.0,62309.0,41237.0,thousand metric tons,short tons,short tons
-2020-01-01,Northeast Region,others,7062.0,52346.0,20509.0,thousand metric tons,short tons,short tons
-2020-01-01,Northeast Region,renewables,152011.0,114655.0,61746.0,thousand metric tons,short tons,short tons
-2020-01-01,Southeast Region,fossil fuels,487106.0,271538.0,178087.0,thousand metric tons,short tons,short tons
-2020-01-01,Southeast Region,others,4307.0,84500.0,169890.0,thousand metric tons,short tons,short tons
-2020-01-01,Southeast Region,renewables,491411.0,356038.0,347977.0,thousand metric tons,short tons,short tons
-2020-01-01,Southwest Region,fossil fuels,283048.0,208389.0,151667.0,thousand metric tons,short tons,short tons
-2020-01-01,Southwest Region,others,146.0,12647.0,7530.0,thousand metric tons,short tons,short tons
-2020-01-01,Southwest Region,renewables,283194.0,221036.0,159197.0,thousand metric tons,short tons,short tons
-2020-01-01,West Region,fossil fuels,192507.0,200632.0,78624.0,thousand metric tons,short tons,short tons
-2020-01-01,West Region,others,1225.0,51445.0,20830.0,thousand metric tons,short tons,short tons
-2020-01-01,West Region,renewables,193731.0,252077.0,99454.0,thousand metric tons,short tons,short tons
-2021-01-01,Midwest Region,fossil fuels,472821.0,347928.0,490829.0,thousand metric tons,short tons,short tons
-2021-01-01,Midwest Region,others,1124.0,53252.0,18388.0,thousand metric tons,short tons,short tons
-2021-01-01,Midwest Region,renewables,473943.0,401180.0,509217.0,thousand metric tons,short tons,short tons
-2021-01-01,Northeast Region,fossil fuels,156847.0,69546.0,56338.0,thousand metric tons,short tons,short tons
-2021-01-01,Northeast Region,others,8304.0,48427.0,18828.0,thousand metric tons,short tons,short tons
-2021-01-01,Northeast Region,renewables,165151.0,117973.0,75166.0,thousand metric tons,short tons,short tons
-2021-01-01,Southeast Region,fossil fuels,521212.0,287850.0,239597.0,thousand metric tons,short tons,short tons
-2021-01-01,Southeast Region,others,4534.0,85389.0,169961.0,thousand metric tons,short tons,short tons
-2021-01-01,Southeast Region,renewables,525746.0,373239.0,409558.0,thousand metric tons,short tons,short tons
-2021-01-01,Southwest Region,fossil fuels,285306.0,215466.0,182880.0,thousand metric tons,short tons,short tons
-2021-01-01,Southwest Region,others,159.0,11027.0,7056.0,thousand metric tons,short tons,short tons
-2021-01-01,Southwest Region,renewables,285466.0,226493.0,189936.0,thousand metric tons,short tons,short tons
-2021-01-01,West Region,fossil fuels,200274.0,212696.0,79564.0,thousand metric tons,short tons,short tons
-2021-01-01,West Region,others,1334.0,49756.0,23862.0,thousand metric tons,short tons,short tons
-2021-01-01,West Region,renewables,201607.0,262452.0,103426.0,thousand metric tons,short tons,short tons
-2022-01-01,Midwest Region,fossil fuels,469680.0,333611.0,456248.0,thousand metric tons,short tons,short tons
-2022-01-01,Midwest Region,others,1131.0,48905.0,17544.0,thousand metric tons,short tons,short tons
-2022-01-01,Midwest Region,renewables,470814.0,382516.0,473792.0,thousand metric tons,short tons,short tons
-2022-01-01,Northeast Region,fossil fuels,158449.0,68056.0,50588.0,thousand metric tons,short tons,short tons
-2022-01-01,Northeast Region,others,7923.0,45520.0,17835.0,thousand metric tons,short tons,short tons
-2022-01-01,Northeast Region,renewables,166372.0,113576.0,68423.0,thousand metric tons,short tons,short tons
-2022-01-01,Southeast Region,fossil fuels,520409.0,293607.0,221444.0,thousand metric tons,short tons,short tons
-2022-01-01,Southeast Region,others,4285.0,81653.0,158645.0,thousand metric tons,short tons,short tons
-2022-01-01,Southeast Region,renewables,524695.0,375260.0,380089.0,thousand metric tons,short tons,short tons
-2022-01-01,Southwest Region,fossil fuels,291143.0,223694.0,152428.0,thousand metric tons,short tons,short tons
-2022-01-01,Southwest Region,others,147.0,10171.0,10207.0,thousand metric tons,short tons,short tons
-2022-01-01,Southwest Region,renewables,291288.0,233865.0,162635.0,thousand metric tons,short tons,short tons
-2022-01-01,West Region,fossil fuels,195874.0,205108.0,81785.0,thousand metric tons,short tons,short tons
-2022-01-01,West Region,others,1323.0,45276.0,22834.0,thousand metric tons,short tons,short tons
-2022-01-01,West Region,renewables,197200.0,250384.0,104619.0,thousand metric tons,short tons,short tons
+period,energySource,co2-thousand-metric-tons,nox-short-tons,so2-short-tons,co2-thousand-metric-tons-units,nox-short-tons-units,so2-short-tons-units
+2008-01-01,fossil fuels,2469260.0,3423421.0,8382507.0,thousand metric tons,short tons,short tons
+2008-01-01,others,14752.0,247542.0,248311.0,thousand metric tons,short tons,short tons
+2008-01-01,renewables,2484012.0,3670963.0,8630818.0,thousand metric tons,short tons,short tons
+2009-01-01,fossil fuels,2254958.0,2392188.0,6334871.0,thousand metric tons,short tons,short tons
+2009-01-01,others,14549.0,248285.0,246242.0,thousand metric tons,short tons,short tons
+2009-01-01,renewables,2269508.0,2640473.0,6581113.0,thousand metric tons,short tons,short tons
+2010-01-01,fossil fuels,2374329.0,2485399.0,5711268.0,thousand metric tons,short tons,short tons
+2010-01-01,others,14266.0,260496.0,241702.0,thousand metric tons,short tons,short tons
+2010-01-01,renewables,2388596.0,2745895.0,5952970.0,thousand metric tons,short tons,short tons
+2011-01-01,fossil fuels,2272433.0,2380968.0,5079811.0,thousand metric tons,short tons,short tons
+2011-01-01,others,14639.0,271593.0,260876.0,thousand metric tons,short tons,short tons
+2011-01-01,renewables,2287071.0,2652561.0,5340687.0,thousand metric tons,short tons,short tons
+2012-01-01,fossil fuels,2141804.0,2079501.0,3816444.0,thousand metric tons,short tons,short tons
+2012-01-01,others,15070.0,287930.0,266445.0,thousand metric tons,short tons,short tons
+2012-01-01,renewables,2156875.0,2367431.0,4082889.0,thousand metric tons,short tons,short tons
+2013-01-01,fossil fuels,2159108.0,2083104.0,3714571.0,thousand metric tons,short tons,short tons
+2013-01-01,others,14699.0,301703.0,263417.0,thousand metric tons,short tons,short tons
+2013-01-01,renewables,2173806.0,2384794.0,3977988.0,thousand metric tons,short tons,short tons
+2014-01-01,fossil fuels,2153592.0,2002513.0,3543529.0,thousand metric tons,short tons,short tons
+2014-01-01,others,14692.0,312740.0,263907.0,thousand metric tons,short tons,short tons
+2014-01-01,renewables,2168284.0,2315253.0,3807436.0,thousand metric tons,short tons,short tons
+2015-01-01,fossil fuels,2016641.0,1709342.0,2544228.0,thousand metric tons,short tons,short tons
+2015-01-01,others,14811.0,301343.0,264234.0,thousand metric tons,short tons,short tons
+2015-01-01,renewables,2031452.0,2010685.0,2808462.0,thousand metric tons,short tons,short tons
+2016-01-01,fossil fuels,1913394.0,1516013.0,1728672.0,thousand metric tons,short tons,short tons
+2016-01-01,others,15007.0,280986.0,262872.0,thousand metric tons,short tons,short tons
+2016-01-01,renewables,1928401.0,1796999.0,1991544.0,thousand metric tons,short tons,short tons
+2017-01-01,fossil fuels,1835453.0,1369886.0,1508321.0,thousand metric tons,short tons,short tons
+2017-01-01,others,14297.0,276353.0,254625.0,thousand metric tons,short tons,short tons
+2017-01-01,renewables,1849750.0,1646239.0,1762946.0,thousand metric tons,short tons,short tons
+2018-01-01,fossil fuels,1857832.0,1344105.0,1412477.0,thousand metric tons,short tons,short tons
+2018-01-01,others,14497.0,280245.0,259998.0,thousand metric tons,short tons,short tons
+2018-01-01,renewables,1872330.0,1624350.0,1672475.0,thousand metric tons,short tons,short tons
+2019-01-01,fossil fuels,1711050.0,1214890.0,1134899.0,thousand metric tons,short tons,short tons
+2019-01-01,others,13822.0,263926.0,261387.0,thousand metric tons,short tons,short tons
+2019-01-01,renewables,1724873.0,1478816.0,1396286.0,thousand metric tons,short tons,short tons
+2020-01-01,fossil fuels,1539871.0,1078173.0,889665.0,thousand metric tons,short tons,short tons
+2020-01-01,others,13715.0,256640.0,237728.0,thousand metric tons,short tons,short tons
+2020-01-01,renewables,1553586.0,1334813.0,1127393.0,thousand metric tons,short tons,short tons
+2021-01-01,fossil fuels,1636458.0,1133486.0,1049208.0,thousand metric tons,short tons,short tons
+2021-01-01,others,15453.0,247851.0,238095.0,thousand metric tons,short tons,short tons
+2021-01-01,renewables,1651911.0,1381337.0,1287303.0,thousand metric tons,short tons,short tons
+2022-01-01,fossil fuels,1635556.0,1124076.0,962493.0,thousand metric tons,short tons,short tons
+2022-01-01,others,14810.0,231525.0,227065.0,thousand metric tons,short tons,short tons
+2022-01-01,renewables,1650367.0,1355601.0,1189558.0,thousand metric tons,short tons,short tons
