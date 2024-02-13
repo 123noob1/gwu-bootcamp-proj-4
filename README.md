@@ -29,7 +29,7 @@ Methodology
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii.Plot all of the features in each of the DataFrames to examine correlations between features. We looked for visualizations that had similar trends as indication  of correlation.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;c. Dickey Fuller Test<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. The Dickey-Fuller test is a statistical test used to determine if a time series data set is stationary or not (determined by p values less than .05) Despite observing a higher p-value than the recommended threshold we proceeded to conduct additional analysis on the variables “consumption for eg -btu and energy generation.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. The Dickey-Fuller test is a statistical test used to determine if a time series data set is stationary or not (determined by p values less than .05) Despite observing a higher p-value than the recommended threshold we proceeded to conduct additional analysis on the variables “consumption for eg -btu and energy generation.In attempt to lower the P Values of our features, we used the pandas differencing method.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;d. Granger Causality test<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Granger Causality Test checks to see if one time series can help predict another time series. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;e. Conducted a split train test on the model.<br>
