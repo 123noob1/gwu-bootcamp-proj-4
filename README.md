@@ -2,7 +2,7 @@
 
 Overview
 
-This project involves a comprehensive analysis of electricity production in the United States. We aim to project electricity production (in megawatts) based on the use of various fuels source using the Vector Auto Regression Model, a multi variate time series machine learning model. Our findings will be visualized in a series of Tableau charts.
+This project involves a comprehensive analysis of electricity production in the United States. We aim to project electricity production (in megawatts) based on the use of various fuels source using the Vector Auto Regression Moving Average Exogenus, a multi variate time series machine learning model. Our findings will be visualized in a series of Tableau charts.
 
 Methodology
 1. Data Collection: We gathered data using various queries on the U.S Energy Information Administration API. We created a database using SQLite to store these queries
