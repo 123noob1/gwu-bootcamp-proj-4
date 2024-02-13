@@ -18,12 +18,12 @@ Methodology
 		ii.Split the dataset by energy source and create dataframes (ff_df, re_df, and oth_df) for each energy source
 		iii.Plot all of the features in each of the DataFrames to examine correlations between features. We looked for visualizations that had 			similar trends as indication  of correlation.
 	c. Dickey Fuller Test
-		i. The Dickey-Fuller test is a statistical test used to determine if a time series data set is stationary or not (determined by p values 		less than .05) . Despite observing a higher p-value than the recommended threshold we proceeded to conduct additional analysis on the 			variables “consumption for eg -btu and energy generation.
+		i. The Dickey-Fuller test is a statistical test used to determine if a time series data set is stationary or 		not (determined by p values less than .05) Despite observing a higher p-value than the recommended threshold 		we proceeded to conduct additional analysis on the variables “consumption for eg -btu and energy generation.
 	d. Granger Causality test
 		i. Granger Causality Test checks to see if one time series can help predict another time series. 
 	e. Conducted a split train test on the model.
 		i. We started with a 75/25 split (132 months for training and 48 months for testing)
-	f. Use a VAR Lag summary to Determine the number of lags to use for model (we selected the LAG from the lowest AIC value which was 40) .
+	f. Use a VAR Lag summary to Determine the number of lags to use for model (we selected the LAG from the lowest AIC 	   value which was 40) .
 	g. Run the VarMax model for generation and consumption for eg datasets
 	h.Create forecasts and put results in DataFrames.
 	i.Analyze forecasts
