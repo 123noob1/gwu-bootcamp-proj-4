@@ -10,16 +10,16 @@ Methodology
 <br>
  3.Model Building
 <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;a). The following Functions were created for our Model:
+  &nbsp;&nbsp;&nbsp;&nbsp;a. The following Functions were created for our Model:
 <br>
 
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i).“plot_feature” to plot the features in a dataframe with time being the index value
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i.“plot_feature” to plot the features in a dataframe with time being the index value
  <br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii).“print_ADF” to verify which features in the DF is stationary or nonstationary by using the ADF test.
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii.“print_ADF” to verify which features in the DF is stationary or nonstationary by using the ADF test.
  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii).“get_var_lag_summary” to print the summary for select_order with recommended # of lag based on lowest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AIC.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii.“get_var_lag_summary” to print the summary for select_order with recommended # of lag based on lowest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AIC.
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iv).“get_rt_mean_sqr_err” prints the  rmse and the percent difference.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iv.“get_rt_mean_sqr_err” prints the  rmse and the percent difference.
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;b).Load cleaned data from SQLite database
 <br>
@@ -27,16 +27,16 @@ Methodology
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii.Split the dataset by energy source and create dataframes (ff_df, re_df, and oth_df) for each energy 			source.
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii.Plot all of the features in each of the DataFrames to examine correlations between features. We looked for visualizations that had similar trends as indication  of correlation.
-&nbsp;&nbsp;&nbsp;&nbsp;c). Dickey Fuller Test
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i). The Dickey-Fuller test is a statistical test used to determine if a time series data set is stationary or not (determined by p values less than .05) Despite observing a higher p-value than the recommended threshold we proceeded to conduct additional analysis on the variables “consumption for eg -btu and energy generation.
-&nbsp;&nbsp;&nbsp;&nbsp;d). Granger Causality test
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i). Granger Causality Test checks to see if one time series can help predict another time series. 
-&nbsp;&nbsp;&nbsp;&nbsp;e). Conducted a split train test on the model.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i). We started with a 75/25 split (132 months for training and 48 months for testing)
-	f). Use a VAR Lag summary to Determine the number of lags to use for model (we selected the LAG from the lowest AIC 	   value which was 40) .
-	g). Run the VarMax model for generation and consumption for eg datasets
-	h).Create forecasts and put results in DataFrames.
-	i).Analyze forecasts
-		i).We used Root Means Square Error since it is widely used on VAR models as a metric for measuring accuracy.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii.Plot all of the features in each of the DataFrames to examine correlations between features. We looked for visualizations that had similar trends as indication  of correlation.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;c. Dickey Fuller Test<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. The Dickey-Fuller test is a statistical test used to determine if a time series data set is stationary or not (determined by p values less than .05) Despite observing a higher p-value than the recommended threshold we proceeded to conduct additional analysis on the variables “consumption for eg -btu and energy generation.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;d. Granger Causality test<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Granger Causality Test checks to see if one time series can help predict another time series. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;e. Conducted a split train test on the model.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. We started with a 75/25 split (132 months for training and 48 months for testing)
+&nbsp;&nbsp;&nbsp;&nbsp;f. Use a VAR Lag summary to Determine the number of lags to use for model (we selected the LAG from the lowest AIC 	   value which was 40) .
+	g. Run the VarMax model for generation and consumption for eg datasets
+	h.Create forecasts and put results in DataFrames.
+	i.Analyze forecasts
+		i.We used Root Means Square Error since it is widely used on VAR models as a metric for measuring accuracy.
 	j.Export Results as JSON files so we can create visualizations in Tableau.
