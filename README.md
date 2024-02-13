@@ -34,9 +34,9 @@ Methodology
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Granger Causality Test checks to see if one time series can help predict another time series. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;e. Conducted a split train test on the model.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. We started with a 75/25 split (132 months for training and 48 months for testing)
-&nbsp;&nbsp;&nbsp;&nbsp;f. Use a VAR Lag summary to Determine the number of lags to use for model (we selected the LAG from the lowest AIC 	   value which was 40) .
-	g. Run the VarMax model for generation and consumption for eg datasets
-	h.Create forecasts and put results in DataFrames.
-	i.Analyze forecasts
+&nbsp;&nbsp;&nbsp;&nbsp;f. Use a VAR Lag summary to Determine the number of lags to use for model (we selected the LAG from the lowest AIC value which was 40 .<br>
+&nbsp;&nbsp;&nbsp;&nbsp;g. Run the VarMax model for generation and consumption for eg datasets
+&nbsp;&nbsp;&nbsp;&nbsp;h.Create forecasts and put results in DataFrames.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.Analyze forecasts
 		i.We used Root Means Square Error since it is widely used on VAR models as a metric for measuring accuracy.
 	j.Export Results as JSON files so we can create visualizations in Tableau.
