@@ -7,15 +7,26 @@ This project involves a comprehensive analysis of electricity production in the 
 Methodology
 1. Data Collection: We gathered data using various queries on the U.S Energy Information Administration API. We created a database using SQLite to store these queries
 2. Data Preprocessing: We connected with the SQLite database using SQL Alchemy. Upon establishing a connection, we used pandas to create DataFrames and NumPy, and stats models to make the calculations necessary for our model. Vector Auto Regression uses a sequence of data points that are organized by time (called time series). The Vector Auto Regression model analyzes multiple time series simultaneously and checks for correlations between these time series. To gain insight into potentially correlated features, we plotted all of these features using seaborn and matplotlib. To check for stationarity ( a necessary condition for accurate predictions in the VAR Model), we used the Dickey Fuller Test. We were looking for a P -Value of less than .05 for the X Values. We parsed the data into bins “Fossil Fuels”, “Renewables” and “Others”. We then dropped the column “energy source” to ensure that all of the column values were floats with the exception of the index “Period” which is in datetime format.
-3.Model Building
-	a). The following Functions were created for our Model:
-		i).“plot_feature” to plot the features in a dataframe with time being the index value
-		ii).“print_ADF” to verify which features in the DF is stationary or nonstationary by using the ADF test
-		iii).“get_var_lag_summary” to print the summary for select_order with recommended # of lag based on lowest 			AIC
-		iv).“get_rt_mean_sqr_err” prints the  rmse and the percent difference
-	b).Load cleaned data from SQLite database
-		i.We visualized a feature in our dataset as a preliminary test to see if data was stationary
-		ii.Split the dataset by energy source and create dataframes (ff_df, re_df, and oth_df) for each energy source
+<br>
+ 3.Model Building
+<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;a). The following Functions were created for our Model:
+<br>
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i).“plot_feature” to plot the features in a dataframe with time being the index value
+ <br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii).“print_ADF” to verify which features in the DF is stationary or nonstationary by using the ADF test.
+ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii).“get_var_lag_summary” to print the summary for select_order with recommended # of lag based on lowest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AIC.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iv).“get_rt_mean_sqr_err” prints the  rmse and the percent difference.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;b).Load cleaned data from SQLite database
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i.We visualized a feature in our dataset as a preliminary test to see if data was stationary.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii.Split the dataset by energy source and create dataframes (ff_df, re_df, and oth_df) for each energy 			source.
+<br>
 		iii.Plot all of the features in each of the DataFrames to examine correlations between features. We looked 		for visualizations that had similar trends as indication  of correlation.
 	c). Dickey Fuller Test
 		i). The Dickey-Fuller test is a statistical test used to determine if a time series data set is stationary or 		not (determined by p values less than .05) Despite observing a higher p-value than the recommended threshold 		we proceeded to conduct additional analysis on the variables “consumption for eg -btu and energy generation.
