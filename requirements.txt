@@ -1,0 +1,8 @@
+hvplot
+matplotlib
+numpy
+pandas
+seaborn
+statsmodel
+sklearn
+sqlalchemy
