@@ -35,11 +35,11 @@ Methodology
 &nbsp;&nbsp;&nbsp;&nbsp;e. Conducted a split train test on the model.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. We started with a 75/25 split (132 months for training and 48 months for testing)
 &nbsp;&nbsp;&nbsp;&nbsp;f. Use a VAR Lag summary to Determine the number of lags to use for model (we selected the LAG from the lowest AIC value which was 40 .<br>
-&nbsp;&nbsp;&nbsp;&nbsp;g. Run the VarMax model for generation and consumption for eg datasets
-&nbsp;&nbsp;&nbsp;&nbsp;h.Create forecasts and put results in DataFrames.
+&nbsp;&nbsp;&nbsp;&nbsp;g. Run the VarMax model for generation and consumption for eg datasets<br>
+&nbsp;&nbsp;&nbsp;&nbsp;h.Create forecasts and put results in DataFrames.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;i.Analyze forecasts<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspi.We used Root Means Square Error since it is widely used on VAR models as a metric for measuring accuracy.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspj.Export Results as JSON files so we can create visualizations in Tableau.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspi.We used Root Means Square Error since it is widely used on VAR models as a metric for measuring accuracy.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspj.Export Results as JSON files so we can create visualizations in Tableau.<br>
 
 Analysis
 Upon building and testing the VARMAX we realized that the RMSE was ranging from 57-65% errors. In attempt to lower the RMSE, we developed a hypothesis that the limited number of observations had a negative effect on the accuracy of the VARMAX model. This was most likely due to the high number of lags that we incorporated in the model ( 40). Ideally, the LAG should be able to be utilized by each of the energy source data sets without changing the LAG number. To test this new hypothesis we increased the number of observations in the training dataset from 75/25 to 80/20 and then to 89/11 ( we chose 89/11 to ensure that an even number of months was used for our model). As we incremented the number of observations in or model, the RMSE  consistently decreased ( from 57% to 52% and finally to 47% after the 89/11 test ), providing evidence that our hypothesis was valid. 
