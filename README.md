@@ -7,6 +7,17 @@ This project involves a comprehensive analysis of electricity production in the 
 
 We believe that by using this model, we would be able to predict the overall generation of electricity based on the type of energy source as well as the amount of resources required to produce the electricity. Additionally, the model has the potential to expand further out into other criteria as well such as stock, gas, and heat generation which can be used for other measurements.
 
+### Pre-requisites:
+1) Run the following command from within your terminal to install the required Python libraries used for this app and data extraction.
+```
+pip install -r requirements.txt
+```  
+2) Copy and paste your API Key which can be obtained from [EAI](https://www.eia.gov/opendata/) into the `_config.py` file located under the [jupyter](/jupyter/) folder then rename it to the `config.py`. This is needed if you need to re-run the data extraction in the `etl.jpynb` file.
+   Refer to [EIA documentation](https://www.eia.gov/opendata/documentation.php) on how to set up the API path and query.
+```
+api_key = '<Enter you key here>'
+``` 
+
 ## Methodology
 1. **Data Collection:**
     - We gathered data using various queries on the [U.S Energy Information Administration API](https://www.eia.gov/opendata/browser/).
