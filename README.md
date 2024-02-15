@@ -1,4 +1,6 @@
 # gwu-bootcamp-proj-4
+[![My Skills](https://skillicons.dev/icons?i=py,sqlite,sklearn,&theme=light)](https://skillicons.dev)
+
 By [Khang Ngo](https://github.com/123noob1) and [John Wooten](https://github.com/jwoot90)
 
 ## Overview
