@@ -84,6 +84,14 @@ api_key = '<Enter you key here>'
 ## Analysis
 Upon building and testing the VARMAX we realized that the RMSE was ranging from 57-65% errors. In an attempt to lower the RMSE, we developed a hypothesis that the limited number of observations negatively impacted the accuracy of predicting using the VARMAX model. This was most likely due to the high number of lags that we incorporated in the model ( 40). Ideally, the LAG should be able to be utilized by each of the energy source data sets without changing the LAG number. To test this new hypothesis we increased the number of observations in the training dataset from 75/25 to 80/20 and then to 89/11 ( we chose 89/11 to ensure that an even number of months was used for our model). As we increased the number of observations in our model, the RMSE  consistently decreased ( from 57% to 52% and finally to 47% after the 89/11 test ), providing evidence that our hypothesis was valid. 
 
+  - RSME results for Fossil Fuels between the original trial versus the subsequent trials
+    
+     |          | Split Ratio | Number of Lag | RMSE Percent Error |
+     |----------|-------------|---------------|--------------------|
+     | Trial 1  |    75/25    |       40      |      0.570956      |
+     | Trial 2  |    80/20    |       40      |      0.518238      |
+     | Trial 3  |    89/11    |       11      |      0.466228      |
+
 Additionally, we conducted a linear regression to determine if we could forecast our dataset using a univariate model. This model was unsuccessful at providing an accurate forecast, due to the non-stationary nature of the dataset. Since linear regression is a univariate model, other influential variables could not be measured in the prediction, significantly affecting the accuracy of the predictions. The model had an R Score of 0.02 and RMSE  of 52%, indicating that linear regression is not an appropriate model to predict the values of our dataset.
 
 ## Next Steps
