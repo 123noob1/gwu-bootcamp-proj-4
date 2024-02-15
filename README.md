@@ -21,6 +21,7 @@ api_key = '<Enter you key here>'
 ## Methodology
 1. **Data Collection:**
     - We gathered data using various queries on the [U.S Energy Information Administration API](https://www.eia.gov/opendata/browser/).
+      - **Note:** Due to the large size of the raw data (*>900,000 observations and >20 features*), only the cleaned data output was stored. The original dataset can be obtained utilizing the `request_to_df` function and the range provided within the `etl.jpynb` file.
     - We created a database using SQLite to store the cleaned data as well as into CSV and JSON files.
 2. **Data Preprocessing:**
     - We connected with the SQLite database using SQL Alchemy. Upon establishing a connection, we parsed the data into bins “Fossil Fuels”, “Renewables” and “Others”.
