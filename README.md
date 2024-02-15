@@ -101,6 +101,8 @@ This dashboard consists of 5 pages:
 - `VARMAX Trial 3` which provides the additional analysis and output to support the hypothesis based on the Analysis section.
 - `Linear Regression Trial` which provides the analysis and output of trialing with Linear Regression model with the dataset using fossil fuels.
 
+The layout was created using MS PowerPoint and exported out as an image.
+
 ## Tools/Technologies Used
 - Python
   - Data manipulation/analysis: `Pandas` and `NumPy`
